@@ -95,14 +95,6 @@ export default function PhotoCarousel() {
     }
   }, []);
 
-  const handlePrev = () => {
-    carousel2.current?.slickPrev();
-  };
-
-  const handleNext = () => {
-    carousel2.current?.slickNext();
-  };
-
   const renderLargeImg = (
     <Box sx={{ mb: 3, borderRadius: 2, overflow: 'hidden', position: 'relative', width: '600px', margin: '0 auto' }}>
       <Carousel {...carouselSettings1} asNavFor={nav2} ref={carousel1}  >
