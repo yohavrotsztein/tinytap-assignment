@@ -1,17 +1,14 @@
 .App {
   text-align: center;
+  background: transparent linear-gradient(180deg, #526cd9 0%, #7f29d5 100%) 0% 0% no-repeat padding-box;
+  /* background: transparent url('https://img.freepik.com/vecteurs-libre/abstrait-degrade-colore_23-2148469209.jpg?w=1800&t=st=1672485806~exp=1672486406~hmac=ebf13f100ecf10e06c084de029f03b467ad605d63f8e887f87d44cf59f0cf19e') no-repeat padding-box; */
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -32,6 +29,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
